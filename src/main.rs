@@ -3,19 +3,19 @@ fn main() {
 }
 
 #[test]
-fn fungsi_test_1(){
+fn unit_test(){
     // About Unit Test
     println!("Hello, Aku Suaminya Agnes Tachyon");
 }
 #[test]
-fn fungsi_test_2(){
+fn Immutable_variable(){
     // About Immutable Variable
     let nama = "Richky Rahmadan";
     println!("Hello, Aku {} Suaminya Gentildonna",nama);
 }
 
 #[test]
-fn fungsi_test_3(){
+fn mutable_variable(){
     // About mutable variable
     let mut nama = "Richky Rahmadan";
     println!("Hello, Aku {} Suaminya Gentildonna",nama);
